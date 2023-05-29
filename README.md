@@ -35,6 +35,19 @@ print_fibonacci_range(range(20))
 
 This will calculate and print the Fibonacci numbers from 0 to 19.
 
+CLI Options
+-----------
+
+The following command-line options are available:
+
+- `n` (optional): The ending number of the range. Defaults to 20.
+- `-v` or `--verbose` (optional): Enable verbose mode.
+
+Example usage:
+
+```shell
+python fibonacci.py 10 -v
+
 Execution Time
 --------------
 The execution time for the Fibonacci calculations is measured and displayed at the end of the program.
