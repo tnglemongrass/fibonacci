@@ -27,7 +27,7 @@ def print_fibonacci_range(number_range, verbose=False):
     fibonaccis = get_fibonacci_range(number_range)
     if verbose:
         for number, result in enumerate(fibonaccis):
-            print(f"{number} -> {result}")
+            print(number + " -> " + result)
     return fibonaccis
 
 if __name__ == "__main__":
@@ -40,5 +40,5 @@ if __name__ == "__main__":
     fibs = print_fibonacci_range(range(args.n + 1), verbose=args.verbose)
     end_time = time.time()
     execution_time = end_time - start_time
-    print(f"Last ({args.n}-th) Fibonacci number: {fibs[-1]}")
-    print(f"Total execution time: {execution_time} seconds")
+    print("Last (" + str(args.n) + "-th) Fibonacci number: " + str(fibs[-1]))
+    print("Total execution time: " + str(execution_time) + " seconds")
