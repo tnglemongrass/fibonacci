@@ -47,6 +47,7 @@ Example usage:
 
 ```shell
 python fibonacci.py 10 -v
+```
 
 Execution Time
 --------------
